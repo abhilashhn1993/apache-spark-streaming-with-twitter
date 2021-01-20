@@ -114,8 +114,7 @@ The tweets streamed are passed for computation of sentiment scores using Bing-Li
 ```python
 def calculate_sentiment_scores(text):
     tokens = text.split(" ")
-    #sentiment_score = []
-    
+        
     neg_score = 0
     pos_score = 0
     
